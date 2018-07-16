@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <body style="background-color: #A99CED">
+      <h3>Cadastro de Informações Extras</h3>
+      <div class="blocoCad">
+        <form name="formInfo" method="post">
+          <b><label for="nome">Contato</label></b>
+          <select name="contatos"></select>
+
+          <input type="radio" name="tipoInfo" value="endereço" /> Endereço<br />
+          <input type="radio" name="tipoInfo" value="telefone" /> Telefone<br />
+          <input type="radio" name="tipoInfo" value="email" /> Email<br />
+          <input type="radio" name="tipoInfo" value="aniversário" /> Aniversário<br />
+
+          <input type="text" name="apelido" id="nick" placeholder="Digite a Informação.." maxlength="500" required>
+          <input type="submit" name="cadastrar" value="Cadastrar" />
+          <input type="reset" name="Limpar" value="Limpar" />
+        </form>
+      </div>
+      </script>
+    </body>
+  </head>
+</html>
